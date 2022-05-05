@@ -25,7 +25,7 @@ import vl from "vega-lite-api";
 //   );
 export const viz = vl
   .markCircle({
-    size: 10000,
+    size: 100,
     opacity: 0.2,
   })
   .encode(
